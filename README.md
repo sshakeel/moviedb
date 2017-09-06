@@ -2,7 +2,7 @@
 
 ## Demo
 
-You can view this project's live demo here: https://sshakeel.github.io/moviedb-sample
+You can view this project's live demo here: https://sshakeel.github.io/moviedb-sample (best viewed on mobile devices)
 
 ## Local Setup
 
