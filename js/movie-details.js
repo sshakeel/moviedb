@@ -1,9 +1,9 @@
 var URLParams = new URLSearchParams(window.location.search);
 var movieID = URLParams.get('id');
 
-var movieRequestURL = "http://api.themoviedb.org/3/movie/" + movieID + "?api_key=b37e4ca3ccc6c8c0a927bdcc9257084f";
+var movieRequestURL = "https://api.themoviedb.org/3/movie/" + movieID + "?api_key=b37e4ca3ccc6c8c0a927bdcc9257084f";
 
-var movieImageBaseURL = "http://image.tmdb.org/t/p/";
+var movieImageBaseURL = "https://image.tmdb.org/t/p/";
 var movieImageSize = "w154/";
 
 $.getJSON({
