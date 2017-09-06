@@ -1,10 +1,10 @@
-#Read Me
+# Read Me
 
-##Demo
+## Demo
 
 You can view this project's live demo here: https://sshakeel.github.io/moviedb-sample
 
-##Local Setup
+## Local Setup
 
 To view the project on your own end, you will need your own Movie DB API Key. You can grab your own key [here](https://www.themoviedb.org/account/signup)
 
