@@ -1,7 +1,9 @@
+var APIKey = "YOUr_API_HERE";
+
 var URLParams = new URLSearchParams(window.location.search);
 var movieID = URLParams.get('id');
 
-var movieRequestURL = "https://api.themoviedb.org/3/movie/" + movieID + "?api_key=b37e4ca3ccc6c8c0a927bdcc9257084f";
+var movieRequestURL = "https://api.themoviedb.org/3/movie/" + movieID + "?api_key=" + APIKey;
 
 var movieImageBaseURL = "https://image.tmdb.org/t/p/";
 var movieImageSize = "w154/";

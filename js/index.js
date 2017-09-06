@@ -1,6 +1,6 @@
-var APIKey = "b37e4ca3ccc6c8c0a927bdcc9257084f";
+var APIKey = "YOUr_API_HERE";
 
-var movieDBBaseURL = "https://api.themoviedb.org/3/";     //http://api.themoviedb.org/3/movie/popular?api_key=b37e4ca3ccc6c8c0a927bdcc9257084f
+var movieDBBaseURL = "https://api.themoviedb.org/3/";
 
 var movieRequestType = ["movie/", "find/"];         //[0] - collection, [1] - single movie
 var movieCollectionFlag = ["popular", "top_rated"];
