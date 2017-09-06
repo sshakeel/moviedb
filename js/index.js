@@ -1,4 +1,4 @@
-var APIKey = "YOUr_API_HERE";
+var APIKey = "YOUR_API_KEY_HERE";
 
 var movieDBBaseURL = "https://api.themoviedb.org/3/";
 

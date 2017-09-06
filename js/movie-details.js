@@ -1,4 +1,4 @@
-var APIKey = "YOUr_API_HERE";
+var APIKey = "YOUR_API_KEY_HERE";
 
 var URLParams = new URLSearchParams(window.location.search);
 var movieID = URLParams.get('id');
