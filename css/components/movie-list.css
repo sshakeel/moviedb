@@ -1,0 +1,14 @@
+/*movie list*/
+.movieList > ul{
+
+}
+.movieList > ul li{
+  list-style-type: none;
+  float: left;
+  display: inline-block;
+  width: 50%;
+}
+.movieList img{
+  width: 100%;
+  display: block;
+}

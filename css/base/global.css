@@ -1,0 +1,48 @@
+@import "reset.css";
+@import "../vendor/font-awesome-4.7.0/css/font-awesome.min.css";
+
+html{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  /*Trick to make padding count as part of container width -  stolen from Paul Irish*/
+  /*https://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
+  box-sizing: inherit;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  width: 100%;
+  color: #000;
+}
+a:link, a:visited, a:active{
+  text-decoration: none;
+  color: #009688;
+}
+
+/*helper classes*/
+.float-right{
+  float: right;
+}
+.float-left{
+  float: left;
+}
+.clearfix:after {       /*class to prevent parent of floating elements from collapsing on to itself (https://css-tricks.com/snippets/css/clear-fix/)*/
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+.headerOffset{    /*to offset room for making main site header position:fixed*/
+  padding-top: 5em;
+}

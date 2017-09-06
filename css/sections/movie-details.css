@@ -1,0 +1,92 @@
+@import "../base/global.css";
+
+@import "../components/header.css";
+@import "../components/movie-list.css";
+
+/*movie details*/
+.movieHeader{      /*we could've used SASS's @extend .header to keep our code DRY*/
+  width: 100%;
+  min-height: 6.2em;
+  background-color: #009688;
+  color: #fff;
+  padding: 15px 25px;
+  -webkit-box-shadow: 0px 4px 7px #aaa;
+  box-shadow: 0px 4px 7px #aaa;
+}
+.movieHeader > h2{
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.movieProfile{
+  padding: 30px 25px;
+}
+.movieProfile > img{
+  display: inline-block;
+  float: left;
+  max-width: 128px;
+  margin-bottom: 20px;
+}
+.movieStats{
+  display: inline-block;
+  float: left;
+  padding-left: 25px;
+}
+.movieYear, .movieRuntime{
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+  color: #747474;
+}
+.movieRuntime{
+  margin-bottom: 15px;
+}
+.movieScore{
+  font-size: 16px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.movieMarkFav{
+  width: 112px;
+  height: 48px;
+  background-color: #86e4db;
+  border: solid 1px #6fcac2;
+  font-size: 12px;
+  text-align: center;
+  color: #757373;
+  text-transform: uppercase;
+}
+.movieDesc{
+  clear: both;
+  color: #747474;
+  margin-bottom: 20px;
+}
+.movieTrailers{
+  border-top: 1px solid #6a6767;
+  padding: 10px 0;
+}
+.movieTrailers > strong{
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #747474;
+}
+.movieTrailers > ul{
+
+}
+.movieTrailers > ul li{
+  padding: 20px;
+  border-bottom: 1px solid #6a6767;
+}
+.movieTrailers > ul li i{
+  font-size: 2em;
+}
+.movieTrailers > ul li span{
+  padding-left: 20px;
+  line-height: 2;
+  vertical-align: text-bottom;
+}
+.movieTrailers > ul li:last-child{
+  border: 0;
+}
