@@ -3,6 +3,7 @@
 ## Demo
 
 You can view this project's live demo here (best viewed on mobile devices):
+
 https://sshakeel.github.io/moviedb-sample
 
 ## Local Setup
